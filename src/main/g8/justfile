@@ -1,0 +1,8 @@
+sbt:
+    sbt
+
+test:
+    sbt test
+
+debug:
+    sbt -jvm-debug 5005
