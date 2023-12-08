@@ -8,7 +8,7 @@ Global / excludeLintKeys := Set(name)
 
 lazy val root = (project in file(".")).
   settings(
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test,
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test,
     libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.17.0" % Test
 )
 
